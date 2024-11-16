@@ -19,7 +19,7 @@ Before setting up Team Brainstorm Hub, ensure you have the following installed o
 - **WSL (Windows Subsystem for Linux)**
 - **Docker Desktop** with Kubernetes enabled
 - **kubectl:** Kubernetes command-line tool
-- **Docker Hub Account:** `nilsps`
+- **Docker Hub Account:** `your-username`
 - **Git:** For version control (optional but recommended)
 
 ## Installation
@@ -35,9 +35,9 @@ cd team-brainstorm-hub
 
 Ensure you're logged in to Docker Hub and have the necessary repositories created:
 
-- `nilsps/idea-service`
-- `nilsps/voting-service`
-- `nilsps/frontend`
+- `your-username/idea-service`
+- `your-username/voting-service`
+- `your-username/frontend`
 
 ### 3. Build and Push Docker Images
 
@@ -45,24 +45,24 @@ Ensure you're logged in to Docker Hub and have the necessary repositories create
 
 ```bash
 cd idea_service
-docker build -t nilsps/idea-service:latest .
-docker push nilsps/idea-service:latest
+docker build -t your-username/idea-service:latest .
+docker push your-username/idea-service:latest
 ```
 
 #### b. Voting Service
 
 ```bash
 cd ../voting_service
-docker build -t nilsps/voting-service:latest .
-docker push nilsps/voting-service:latest
+docker build -t your-username/voting-service:latest .
+docker push your-username/voting-service:latest
 ```
 
 #### c. Frontend
 
 ```bash
 cd ../frontend
-docker build -t nilsps/frontend:latest .
-docker push nilsps/frontend:latest
+docker build -t your-username/frontend:latest .
+docker push your-username/frontend:latest
 ```
 
 ### 4. Deploy to Kubernetes
