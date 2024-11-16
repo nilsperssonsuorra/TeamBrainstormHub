@@ -1,4 +1,3 @@
-```markdown
 # Team Brainstorm Hub
 
 **Team Brainstorm Hub** is a collaborative platform designed to facilitate idea submission, voting, and collective refinement among team members. Leveraging a scalable microservices architecture, it promotes creative thinking, structured feedback, and active participation within teams.
@@ -123,4 +122,3 @@ Open the application in multiple browser windows to see real-time synchronizatio
 - **Orchestration:** Kubernetes
 - **Version Control:** Git
 - **Cloud:** Docker Hub
-```
