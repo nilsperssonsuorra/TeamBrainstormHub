@@ -27,11 +27,9 @@ Before setting up Team Brainstorm Hub, ensure you have the following installed o
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/team-brainstorm-hub.git
+git clone https://github.com/nilsperssonsuorra/team-brainstorm-hub.git
 cd team-brainstorm-hub
 ```
-
-*Replace `yourusername` with your actual GitHub username if applicable.*
 
 ### 2. Set Up Docker Hub
 
